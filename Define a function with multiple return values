@@ -1,0 +1,14 @@
+def calculate(a, b): 
+    addition = a + b 
+    subtraction = a - b
+    multiplication = a * b 
+    return addition, subtraction, multiplication
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+add, sub, mul = calculate(x, y)
+
+print("Addition =", add) 
+print("Subtraction =", sub) 
+print("Multiplication =", mul)
