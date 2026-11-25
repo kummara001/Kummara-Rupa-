@@ -1,0 +1,14 @@
+student = {
+    "name": "Ravi",
+    "age": 21,
+    "course": "Python",
+    "college": "ANU"
+}
+
+key = input("Enter a key to search: ")
+
+if key in student:
+    print("Key exists in the dictionary.")
+else:
+    print("Key does not exist in the dictionary.")
+    
