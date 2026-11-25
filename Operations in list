@@ -1,0 +1,10 @@
+numbers = [10, 20, 30, 40, 50]
+print("Original list:", numbers)
+
+numbers.append(60)
+print("After addition:", numbers)
+
+numbers.insert(2, 25)
+print("After insertion:", numbers)
+
+print("Sliced list:", numbers[1:5])
